@@ -1,0 +1,33 @@
+/* Layout */
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color:rgb(255, 255, 255);
+
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: auto;
+  display: grid;
+  place-items: center;
+}
+
+.game-board {
+  background-color: palegoldenrod;
+  color: black;
+  display: grid;
+  height: 500px;
+  width: 500px;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.game-cell{
+  display: grid;
+  place-items: center;
+  border: 10px solid white;
+}

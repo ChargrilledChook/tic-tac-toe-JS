@@ -21,3 +21,5 @@ const p1 = playerFactory("Donkey", "🐒");
 const p2 = playerFactory("Krool", "🐊");
 
 console.log({ p1, p2 });
+
+// Should the options / input form be it's own object?
