@@ -17,7 +17,6 @@ html, body {
 }
 
 .game-board {
-  background-color: palegoldenrod;
   color: black;
   display: grid;
   height: 500px;
@@ -30,4 +29,22 @@ html, body {
   display: grid;
   place-items: center;
   border: 10px solid white;
+  font-size: 5em;
+  color: white;
+}
+
+.top-cell {
+  border-top: none;
+}
+
+.bottom-cell {
+  border-bottom: none;
+}
+
+.left-cell {
+  border-left: none;
+}
+
+.right-cell {
+  border-right: none;
 }
