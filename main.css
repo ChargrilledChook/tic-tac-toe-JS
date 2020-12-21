@@ -4,9 +4,8 @@ html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #000000;
-  color:rgb(255, 255, 255);
-
+  background-color: #050505;
+  color: white;
 }
 
 .wrapper {
@@ -17,7 +16,6 @@ html, body {
 }
 
 .game-board {
-  color: black;
   display: grid;
   height: 500px;
   width: 500px;
